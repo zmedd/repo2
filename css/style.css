@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 32px;
+  /* Sunt un comment in CSS */
+  font-size: 16px;
+  font-size: 1px;
+}
+p {
+  font-size: 72px;
+  color: red;
+  font-family: sans-serif, monospace;
+  background: grey;
+  /* display: inline; */
+  width: 200px;
+  /* height: 200px; recomand sa evitati sa il folositi */
+}
+
+a {
+  background-color: #2b2922;
+  color: #ffffff;
+  width: 360px;
+  height: 40px;
+  /* elementele inline nu suporta proprietati de block
+  ca un element inline sa le suporte, trebuie sa in transformam
+  in block sau inline-block */
+  display: inline-block;
+  text-decoration: none;
+  font-style: italic;
+}
+
+span {
+  background-color: #2c8c99;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 35px;
+  /* border: 10px dotted red; */
+  margin: 400px 0;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+#cartof {
+  background-color: blue;
+  /* NU folositi ID pentru stilizare */
+}
+
+.cartof {
+  background-color: black;
+}
+
+/* 
+Prioritatea in css:
+CSS inline - cea mai mare prioritate
+id - poate fi rescris doar de css inline
+class - e rescris si de ID si de inline
+element - poate fi rescris de orice
+
+inline > id > class > element
+*/
+
+/* .image {
+  width: 615px;
+} */
